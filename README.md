@@ -1,8 +1,8 @@
-# Chatgpt Academic Helper: ChatGPT 学术小助手 (ChatGPT Academic Prompt Helper)
+# Chatgpt Academic Helper: ChatGPT Asisten Akademik (ChatGPT Academic Prompt Helper) Bahasa Indonesia
 
-本项目是一个油猴脚本 (Tampermonkey)，旨在便于**网页版** Chatgpt 的 prompt 输入，并内置了一些常用的学术 prompt 模板。
+Proyek ini adalah skrip Tampermonkey, yang dirancang untuk memfasilitasi input cepat **versi web** Chatgpt, dan memiliki beberapa templat cepat akademik yang umum digunakan di dalamnya.
 
-本项目根据 [ChatGPT 插件脚本](https://github.com/winchesHe/chatGPT-prompt-scripts)项目修改，主要自用。其中，学术 Prompt 内容借鉴了 [ChatGPT 学术化](https://github.com/binary-husky/chatgpt_academic)项目。
+Proyek ini didasarkan pada [ChatGPT 插件脚本](https://github.com/winchesHe/chatGPT-prompt-scripts)Modifikasi proyek, terutama untuk penggunaan pribadi. Diantaranya, akademisi Prompt Kontennya terus berlanjut [ChatGPT akademik](https://github.com/binary-husky/chatgpt_academic)proyek.
 
 ![功能界面展示](figs/fig2.png)
 
@@ -10,11 +10,11 @@
 
 ## Install:
 
-### 方法 1：
+### metode 1：
 
 去 Greasy Fork 安装脚本: [Install on GreasyFork](https://greasyfork.org/zh-CN/scripts/464480-chatgpt-academic-prompt-helper)
 
-### 方法 2：
+### metode 2：
 
 将 `chatgpt_academic_helper.js` 文件下载下来，并拖入油猴脚本插件即可。
 
@@ -22,7 +22,7 @@
 
 ## Usage:
 
-### 打开 prompt 面板:
+### Membuka prompt panel:
 
 ![功能界面展示](figs/fig1.png)
 
