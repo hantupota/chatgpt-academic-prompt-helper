@@ -4,21 +4,21 @@ Proyek ini adalah skrip Tampermonkey, yang dirancang untuk memfasilitasi input c
 
 Proyek ini didasarkan pada [ChatGPT 插件脚本](https://github.com/winchesHe/chatGPT-prompt-scripts)Modifikasi proyek, terutama untuk penggunaan pribadi. Diantaranya, akademisi Prompt Kontennya terus berlanjut [ChatGPT akademik](https://github.com/binary-husky/chatgpt_academic)proyek.
 
-![功能界面展示](figs/fig2.png)
+![Tampilan antarmuka fungsi](figs/fig2.png)
 
-<!-- <img src=figs/fig2.png alt="功能界面展示" width="500"> -->
+<!-- <img src=figs/fig2.png alt="Tampilan antarmuka fungsi" width="500"> -->
 
 ## Install:
 
 ### metode 1：
 
-去 Greasy Fork 安装脚本: [Install on GreasyFork](https://greasyfork.org/zh-CN/scripts/464480-chatgpt-academic-prompt-helper)
+Buka skrip instalasi Greasyfork: [Install on GreasyFork](https://greasyfork.org/zh-CN/scripts/464480-chatgpt-academic-prompt-helper)
 
 ### metode 2：
 
-将 `chatgpt_academic_helper.js` 文件下载下来，并拖入油猴脚本插件即可。
+Unduh file `chatgpt_academic_helper.js` dan seret ke dalam plugin skrip Grease Monkey.
 
-或手动新建油猴脚本 并粘贴 `chatgpt_academic_helper.js` 的内容。
+Atau secara manual buat skrip Oil Monkey baru dan tempelkan`chatgpt_academic_helper.js` Isi.
 
 ## Usage:
 
