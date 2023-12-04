@@ -44,6 +44,6 @@ Proyek ini didasarkan pada [ChatGPT 插件脚本](https://github.com/winchesHe/c
 
 ## 赞助:
 
-如果你觉得脚本好用，可以请作者喝一杯咖啡：
+Jika menurut Anda skrip ini berguna, Anda dapat membelikan penulis secangkir kopi:：
 
 ![sponsor](figs/pic_receive.jpg)
