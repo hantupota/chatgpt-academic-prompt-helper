@@ -46,4 +46,4 @@ Proyek ini didasarkan pada [ChatGPT 插件脚本](https://github.com/winchesHe/c
 
 Jika menurut Anda skrip ini berguna, Anda dapat membelikan penulis secangkir kopi:：
 
-![sponsor](figs/pic_receive.jpg)
+![sponsor](/wa-seopedia.tech.png)
