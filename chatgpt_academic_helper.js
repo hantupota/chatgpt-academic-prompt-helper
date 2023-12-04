@@ -1,9 +1,9 @@
 /*!
 // ==UserScript==
 // @name          ChatGPT-academic-prompt-helper
-// @namespace     https://github.com/ZinYY/chatgpt-academic-prompt-helper
+// @namespace     https://github.com/hantupota/chatgpt-academic-prompt-helper
 // @version       0.1.8
-// @description   项目主页：https://github.com/ZinYY/chatgpt-academic-prompt-helper。  【ChatGPT 学术小助手】可以为你带来更好的网页版chatgpt使用体验：快速地添加快捷指令prompts。  本项目是一个油猴脚本 (Tampermonkey)，旨在便于网页版 Chatgpt 的 prompt 输入，并内置了一些常用的学术 prompt 模板。  【Usage】【打开 prompt 面板】:单击侧边栏的 “快捷指令” 按钮，或者用快捷键 `command+shift+F` (Windows 用户使用 `ctrl+shift+F`)。  【输入 prompt】: 单击想要输入的 prompt 即可。prompt 会添加在输入框之前。  【关闭 prompt 面板】: 使用快捷键 `command+shift+F`, 或是按下 `ESC` 按键即可。  【自定义 prompt】: 自行修改 `chatgpt_academic_helper.js` 文件中的内容即可。
+// @description   项目主页：https://github.com/hantupota/chatgpt-academic-prompt-helper。  【ChatGPT 学术小助手】可以为你带来更好的网页版chatgpt使用体验：快速地添加快捷指令prompts。  本项目是一个油猴脚本 (Tampermonkey)，旨在便于网页版 Chatgpt 的 prompt 输入，并内置了一些常用的学术 prompt 模板。  【Usage】【打开 prompt 面板】:单击侧边栏的 “快捷指令” 按钮，或者用快捷键 `command+shift+F` (Windows 用户使用 `ctrl+shift+F`)。  【输入 prompt】: 单击想要输入的 prompt 即可。prompt 会添加在输入框之前。  【关闭 prompt 面板】: 使用快捷键 `command+shift+F`, 或是按下 `ESC` 按键即可。  【自定义 prompt】: 自行修改 `chatgpt_academic_helper.js` 文件中的内容即可。
 // @homepage      https://github.com/ZinYY/chatgpt-academic-prompt-helper
 // @author        ZinYY
 // @match         *://chat.openai.com/*
@@ -19,17 +19,17 @@
     }
     var SHORTCUTS = [
         [
-            "🀄️⇨🔠 中译英 (列出参考)",
-            "Please translate following sentence to English with academic writing, and provide some related authoritative examples:\n\n",
-        ],
-        [
-            "🀄️⇨🔠 中译英",
-            "Please translate following sentence to English with academic writing:\n\n",
-        ],
-        [
-            "🔠⇨🔠 polish (列出修改)",
-            "Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When necessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table:\n\n",
-        ],
+             "🀄️⇨🔠 Bahasa Mandarin ke Bahasa Inggris (daftar referensi)",
+             "Harap terjemahkan kalimat berikut ke dalam bahasa Inggris dengan tulisan akademis, dan berikan beberapa contoh resmi terkait:\n\n",
+         ],
+         [
+             "🀄️⇨🔠 Bahasa Mandarin ke Bahasa Inggris",
+             "Tolong terjemahkan kalimat berikut ke dalam bahasa Inggris dengan tulisan akademis:\n\n",
+         ],
+         [
+             "🔠⇨🔠 semir (daftar modifikasi)",
+             Di bawah ini adalah paragraf dari makalah akademis. Poles tulisan agar sesuai dengan gaya akademis, tingkatkan ejaan, tata bahasa, kejelasan, keringkasan, dan keterbacaan secara keseluruhan. Bila perlu, tulis ulang seluruh kalimat. Selanjutnya, buat daftar semua modifikasi dan jelaskan alasannya lakukan di tabel penurunan harga:\n\n",
+         ],
         [
             "🔠⇨🔠 polish",
             "Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When necessary, rewrite the whole sentence:\n\n",
